@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
-<body>
+<body>	
 	<div class="hn-icon"></div>
 
 	<div class="hn-stripe hn-first-stripe"></div>
@@ -42,6 +42,27 @@
 	<footer class="hn-credits">
 	<p>Hacker News Reader (YC) for iPhone<br>by <a href="http://nathanspeller.com">Nathan Speller</a> &copy; 2015
 	</footer>
+
+	<script>
+		$(document).ready(function() {
+			var stripe = $('.hn-second-stripe');
+			var stripeAngle = $('.hn-second-stripe-angle');
+
+			var stripe2 = $('.hn-first-stripe');
+			var stripeAngle2 = $('.hn-first-stripe-angle');
+
+			$( document ).on( "mousemove", function( event ) {
+			  var percentX = event.pageX / $( window ).width();
+			  var percentY = event.pageY / $( window ).width();
+
+			  stripe.css("width", (79+percentX*10)+"%");
+			  stripeAngle.css("left", (79+percentX*10)+"%");
+
+			  stripe2.css("width", (73+percentX*4)+"%");
+			  stripeAngle2.css("left", (73+percentX*4)+"%");
+			});
+		});
+	</script>
 
 </body>
 </html>
