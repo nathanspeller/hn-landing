@@ -33,7 +33,7 @@ body {
     padding-left: 36px;
     color: #FFF;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 30px;
 }
 
 .hn-share-links a:hover {
@@ -144,7 +144,22 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     color: #3F1E0B;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.hn-copy p a, footer a {
+    color: #3F1E0B;
+    background-image: url("images/white-sq.png");
+    background-repeat: repeat-x;
+    background-size: 1px 6px;
+    background-position: 0 12px;
+    padding: 0 2px;
+}
+
+.hn-copy p a:hover, footer a:hover {
+    text-decoration: none;
+    background-repeat: repeat;
+    background-size: 1px 1px;
 }
 
 .hn-download {
