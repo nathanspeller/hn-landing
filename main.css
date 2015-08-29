@@ -1,0 +1,166 @@
+body {
+	background-color: #FF6F2E;
+	background: -webkit-linear-gradient(#FF6F2E, #FF5137); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF6F2E, #FF5137); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FF6F2E, #FF5137); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FF6F2E, #FF5137); /* Standard syntax */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hn-icon {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background-image: url("images/hn-icon.png");
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+}
+
+.hn-share-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hn-share-links a {
+    margin-left: 5px;
+    padding-left: 36px;
+    color: #FFF;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.hn-share-links a:hover {
+    text-decoration: none;
+}
+
+.hn-stripe {
+    height: 290px;
+    position: absolute;
+    left: 0;
+    background-image: url("images/stripe-bg.png");
+    background-repeat: repeat;
+}
+
+.hn-first-stripe {
+    top: 200px;
+    width: 75%;
+}
+
+.hn-second-stripe {
+    top: 235px;
+    width: 84%;
+}
+
+.hn-first-stripe-angle, .hn-second-stripe-angle {
+    height: 290px;
+    width: 57px;
+    background-image: url("images/stripe-angle.png");
+    background-repeat: no-repeat;
+    background-size: 57px 290px;
+    position: absolute;
+}
+
+.hn-first-stripe-angle {
+    top: 200px;
+    left: 75%;
+}
+
+.hn-second-stripe-angle {
+    top: 235px;
+    left: 84%;
+}
+
+.hn-facebook, .hn-twitter {
+    width: 85px;
+    height: 32px;
+    border-radius: 4px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.hn-facebook {
+    background-color: #3B5998;
+    background-image: url("images/facebook.png");
+    background-size: 8px 15px;
+    background-position: 15px 8px;
+}
+
+.hn-facebook:hover {
+    background-color: #2B4989;
+}
+
+.hn-twitter {
+    background-color: #3689E9;
+    background-image: url("images/twitter.png");
+    background-size: 19px 15px;
+    background-position: 10px 8px;
+}
+
+.hn-twitter:hover {
+    background-color: #2374D0;
+}
+
+.hn-iphone {
+    width: 220px;
+    height: 450px;
+    background-image: url("images/iphone.png");
+    background-size: 220px 450px;
+    background-repeat: no-repeat;
+}
+
+.hn-container {
+    width: 640px;
+    padding: 40px 0 0 40px;
+    margin: 100px auto;
+}
+
+.hn-copy h1 {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.hn-copy p {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #3F1E0B;
+    margin-bottom: 30px;
+}
+
+.hn-download {
+    width: 175px;
+    height: 55px;
+    background-image: url("images/download.png");
+    background-size: 175px 55px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+footer {
+    position: absolute;
+    top: 100%;
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+    opacity: 0.8;
+    width: 100%;
+    padding: 30px;
+}
+
+footer a {
+    color: #FFF;
+}
+
+footer a:hover {
+    opacity: 1;
+    color: #FFF;
+}
