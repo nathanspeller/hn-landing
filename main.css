@@ -115,6 +115,17 @@ body {
     background-repeat: no-repeat;
 }
 
+.hn-screen {
+    width: 188px;
+    height: 336px;
+    background-image: url("images/front.png");
+    background-repeat: no-repeat;
+    background-size: 188px 336px;
+    position: relative;
+    top: 54px;
+    left: 16px;
+}
+
 .hn-container {
     width: 640px;
     padding: 40px 0 0 40px;
@@ -124,7 +135,7 @@ body {
 .hn-copy h1 {
     font-size: 25px;
     color: #FFF;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 20px;
     padding-top: 100px;
 }
