@@ -49,12 +49,12 @@ body {
 }
 
 .hn-first-stripe {
-    top: 200px;
+    top: 190px;
     width: 75%;
 }
 
 .hn-second-stripe {
-    top: 235px;
+    top: 225px;
     width: 84%;
 }
 
@@ -68,12 +68,12 @@ body {
 }
 
 .hn-first-stripe-angle {
-    top: 200px;
+    top: 190px;
     left: 75%;
 }
 
 .hn-second-stripe-angle {
-    top: 235px;
+    top: 225px;
     left: 84%;
 }
 
@@ -108,28 +108,30 @@ body {
 }
 
 .hn-iphone {
-    width: 220px;
-    height: 450px;
+    width: 242px;
+    height: 495px;
     background-image: url("images/iphone.png");
-    background-size: 220px 450px;
+    background-size: 242px 495px;
     background-repeat: no-repeat;
+    position: relative;
+    top: -10px;
 }
 
 .hn-screen {
-    width: 188px;
-    height: 336px;
+    width: 206px;
+    height: 370px;
     background-image: url("images/front.png");
     background-repeat: no-repeat;
-    background-size: 188px 336px;
+    background-size: 206px 370px;
     position: relative;
-    top: 54px;
-    left: 16px;
+    top: 58px;
+    left: 18px;
 }
 
 .hn-container {
-    width: 640px;
+    width: 700px;
     padding: 40px 0 0 40px;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .hn-copy h1 {
@@ -137,7 +139,7 @@ body {
     color: #FFF;
     font-weight: 300;
     margin-bottom: 18px;
-    padding-top: 100px;
+    padding-top: 108px;
 }
 
 .hn-copy p {
