@@ -138,7 +138,7 @@ body {
 .hn-copy h1 {
     font-size: 25px;
     color: #FFF;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 18px;
     padding-top: 108px;
 }
@@ -146,12 +146,13 @@ body {
 .hn-copy p {
     font-size: 16px;
     line-height: 1.5em;
-    color: #3F1E0B;
+    color: #FFF;
     margin-bottom: 26px;
+		font-weight: 300;
 }
 
 .hn-copy p a {
-    color: #3F1E0B;
+    color: #FFF;
 }
 
 .hn-download {
