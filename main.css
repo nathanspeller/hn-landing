@@ -111,22 +111,11 @@ body {
 .hn-iphone {
     width: 304px;
     height: 535px;
-    background-image: url("images/iphone.png");
+    background-image: url("images/iphone-on.png");
     background-size: 304px 535px;
     background-repeat: no-repeat;
     position: relative;
     top: -10px;
-}
-
-.hn-screen {
-    width: 216px;
-    height: 379px;
-    background-image: url("images/front.png");
-    background-repeat: no-repeat;
-    background-size: 216px 379px;
-    position: relative;
-    top: 61px;
-    left: 14px;
 }
 
 .hn-container {
